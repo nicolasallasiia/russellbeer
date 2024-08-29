@@ -4,72 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bar Russell</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px 20px;
-            background-color: #333;
-            color: white;
-        }
-        header img {
-            height: 50px;
-        }
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-        nav ul li {
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-        .hero {
-            width: 100%;
-            height: calc(100vh - 70px); 
-            background: url('../Assets/portada2.jpg') no-repeat center center/cover;
-        }
-        .container {
-            padding: 20px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-        .item {
-            width: 30%;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-        .item img {
-            width: 100%;
-            height: auto;
-        }
-        .item p {
-            margin: 10px 0 0 0;
-        }
-    </style>
+   <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
 
 <header>
-    <img src="../Assets/logofi.png" alt="Logo">
+    <img src="../assets/logofi.png" alt="Logo">
     <nav>
         <ul>
             <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./Cerveza.html">Cerveza</a></li>
+            <li><a href="./cerveza.html">Cerveza</a></li>
             <li><a href="#">Cocteles</a></li>
-            <li><a href="./Menu.html">Menú</a></li>
-            <li><a href="./Eventos.html">Eventos</a></li>
-            <li><a href="./SobreNosotros.html">Sobre Nosotros</a></li>
+            <li><a href="./menu.html">Menú</a></li>
+            <li><a href="./eventos.html">Eventos</a></li>
+            <li><a href="./sobreNosotros.html">Sobre Nosotros</a></li>
         </ul>
     </nav>
 </header>
@@ -83,46 +31,83 @@
 </article>
 <div class="container">
     <div class="item">
-        <img src="../Assets/imgcoctels.jpg" alt="Descripción 1">
+        <img src="../assets/caipiroskafr.jpeg" alt="Descripción 1">
+        <p>La Caipiroska de frutos rojos, también conocida como "caipirivodka", 
+            es originaria de Brasil y pertenece a la familia de cócteles 
+            denominados "caipiras", nacidos exclusivamente como una 
+            variación de esta, la cual ha sido y es uno de los 
+            grandes cócteles clásicos.</p>
+    </div>
+    <div class="item">
+        <img src="../assets/campari.jpeg" alt="Descripción 2">
+        <p>Campari es una bebida alcohólica de grado medio, tonificante y refrescante, calificable como aperitivo, de característico color rojo y sabor amargo. La marca es propiedad del Grupo Campari.</p>
+    </div>
+    <div class="item">
+        <img src="../assets/carpanobianco.jpeg" alt="Descripción 3">
+        <p>Se trata de un Vermut nacido en 1930, dulce, fresco y aromático. La mineralidad del vino se combina perfectamente con las notas especiadas y cítricas. Dentro de los botánicos utilizados para lograr esta combinación se destacan la piel de cítricos, canela y macis.</p>
+    </div>
+    <div class="item">
+        <img src="../assets/carpanorosso.jpeg" alt="Descripción 4">
+        <p>Color: Ambarino brillante con tonos amarillos/verdoso. Aroma: piel de naranja, canela y especies. En boca: lineal, principio dulce y final amarga y especiado. Ideal para disfrutar solo con hielo y soda, o como ingrediente de los cocteles aperitivos más emblemáticos de la historia.</p>
+    </div>
+    <div class="item">
+        <img src="../assets/coctelfrutosr.jpeg" alt="Descripción 5">
+        <p>Cóctel hecho con frutos rojos, ron y azúcar' . La acentuación etimológica es daiquirí, ya que el nombre de esta bebida procede del barrio de Daiquirí, situado en el municipio cubano de El Caney.</p>
+    </div>
+    <div class="item">
+        <img src="../assets/cynar.jpeg" alt="Descripción 6">
+        <p>El Cynar Julep es un trago fresco, con un toque amargo, similar al mojito pero esta versión contiene jugo de Pomelo. Esta receta pertenece al bartender Santiago Lambardi.</p>
+    </div>
+    <div class="item">
+        <img src="../assets/fernet.jpeg" alt="Descripción 1">
+        <p>El fernet es una bebida alcohólica de origen italiano perteneciente la familia de los amaros italianos elaborada a partir de la maceración de varios tipos de hierbas​ en alcohol obtenido de la fermentación de la vid.</p>
+    </div>
+    <div class="item">
+        <img src="../assets/gancia.jpeg" alt="Descripción 2">
+        <p>Gancia es un aperitivo italiano, se caracteriza por sus sabores herbáceos y cítricos, que se combinan con los del vino blanco y el alcohol. El sabor amargo de las hierbas se mezcla con el dulzor del azúcar, creando una bebida equilibrada y agradable de beber.</p>
+    </div>
+    <div class="item">
+        <img src="../assets/ginfrutosr.jpeg" alt="Descripción 3">
+        <p>El gin de frutos rojos es una bebida alcohólica que combina ginebra con frutos rojos. Los frutos rojos pueden ser dulces, ácidos, jugosos y de colores intensos. La combinación de la ginebra y los frutos rojos crea un sabor único que es dulce, cítrico, menta y un poco picante.<p>
+    </div>
+    <div class="item">
+        <img src="../assets/ginmentalimon.jpeg" alt="Descripción 4">
+        <p>Gran ginebra elaborada con limones frescos de Sóller (Mallorca) - producida exclusivamente para nosotros por Eva y Stefan. Debido a la maceración previa de los frutos frescos muy intensos en sabor. Delicioso puro o con una buena tónica y una rodajita de limón o lima fresca.</p>
+    </div>
+    <div class="item">
+        <img src="../assets/jagger.jpeg" alt="Descripción 5">
+        <p>Jägermeister es un licor de hierbas alemán con un 35% de alcohol. Se elabora macerando hierbas y especias en alcohol durante varios días, luego filtrando y embotellando. El licor es endulzado, pero tiene un toque amargo, y su sabor es una mezcla de matices dulces y amargos.</p>
+    </div>
+    <div class="item">
+        <img src="../assets/limonada.jpeg" alt="Descripción 6">
+        <p>La limonada​ es una bebida de elaboración usualmente casera, a base de limón, agua y azúcar,​ que puede tener o no contenido alcohólico.</p>
+    </div>
+    <div class="item">
+        <img src="../assets/mojito.jpeg" alt="Descripción 1">
+        <p>Un mojito es un cóctel cubano que combina ron, limón, azúcar, menta y agua con gas. La combinación de sabores dulces, cítricos y de menta herbácea complementa el ron y hace del mojito una bebida popular de verano. El mojito se suele adornar con una rama de hierbabuena.</p>
+    </div>
+    <div class="item">
+        <img src="../assets/negroni.jpeg" alt="Descripción 2">
         <p>El Negroni es un cóctel de origen italiano preparado a base de ginebra, 
             Campari y vermú rojo. Es uno de los combinados más famosos del mundo 
             que fue inventado en 1919 por Fosco Scarselli, un camarero florentino 
             que atendía en el viejo café Cassoni.</p>
     </div>
     <div class="item">
-        <img src="../Assets/imgcoctels.jpg" alt="Descripción 2">
-        <p>El Negroni es un cóctel de origen italiano preparado a base de ginebra, 
-            Campari y vermú rojo. Es uno de los combinados más famosos del mundo 
-            que fue inventado en 1919 por Fosco Scarselli, un camarero florentino 
-            que atendía en el viejo café Cassoni.</p>
+        <img src="../assets/oldfashion.jpeg" alt="Descripción 3">
+        <p>El Old Fashioned es un cóctel que se cree que se originó en los bares estadounidenses de Kentucky en la década de 1880. Se dice que el primer Old Fashioned se hizo en el Pendennis Club de Louisville, Kentucky, por un barman, aunque no se conoce exactamente el nombre del inventor.<p>
     </div>
     <div class="item">
-        <img src="../Assets/imgcoctels.jpg" alt="Descripción 3">
-        <p>El Negroni es un cóctel de origen italiano preparado a base de ginebra, 
-            Campari y vermú rojo. Es uno de los combinados más famosos del mundo 
-            que fue inventado en 1919 por Fosco Scarselli, un camarero florentino 
-            que atendía en el viejo café Cassoni.p>
+        <img src="../assets/ronmentalima.jpeg" alt="Descripción 4">
+        <p>El ron es una bebida alcohólica, elaborada de la fermentación y destilación de la melaza o el jugo de la caña de azúcar. La mayoría de su producción se encuentra en América, y concretamente el Caribe, aunque también se da en otros países como las Filipinas o la India.</p>
     </div>
     <div class="item">
-        <img src="../Assets/imgcoctels.jpg" alt="Descripción 4">
-        <p>El Negroni es un cóctel de origen italiano preparado a base de ginebra, 
-            Campari y vermú rojo. Es uno de los combinados más famosos del mundo 
-            que fue inventado en 1919 por Fosco Scarselli, un camarero florentino 
-            que atendía en el viejo café Cassoni.</p>
+        <img src="../assets/whiskilimon.jpeg" alt="Descripción 5">
+        <p>El whisky con limón, o whisky sour, es un cóctel que se cree que se originó en América del Sur en la década de 1870. Los marineros británicos mezclaban whisky, limón y azúcar para prevenir el escorbuto.</p>
     </div>
     <div class="item">
-        <img src="../Assets/imgcoctels.jpg" alt="Descripción 5">
-        <p>El Negroni es un cóctel de origen italiano preparado a base de ginebra, 
-            Campari y vermú rojo. Es uno de los combinados más famosos del mundo 
-            que fue inventado en 1919 por Fosco Scarselli, un camarero florentino 
-            que atendía en el viejo café Cassoni.</p>
-    </div>
-    <div class="item">
-        <img src="../Assets/imgcoctels.jpg" alt="Descripción 6">
-        <p>El Negroni es un cóctel de origen italiano preparado a base de ginebra, 
-            Campari y vermú rojo. Es uno de los combinados más famosos del mundo 
-            que fue inventado en 1919 por Fosco Scarselli, un camarero florentino 
-            que atendía en el viejo café Cassoni.</p>
+        <img src="../assets/whisky.jpeg" alt="Descripción 6">
+        <p>El whisky es un destilado de cereal envejecido en barricas de madera que se originó en Irlanda y se extendió rápidamente a Escocia. La palabra "whisky" proviene del gaélico "uisge beatha", que significa "agua de la vida".</p>
     </div>
 </div>
 
@@ -131,4 +116,25 @@
 
 
 </body>
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>Contacto</h4>
+            <p>Teléfono: +54 342895785</p>
+            <p>Email: bar@russell.com</p>
+        </div>
+        <div class="footer-section">
+            <h4>Ubicación</h4>
+            <p>Calle Falsa 123, Buenos Aires, Argentina</p>
+        </div>
+        <div class="footer-section">
+            <h4>Síguenos</h4>
+            <ul class="social-links">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
 </html>
